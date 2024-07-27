@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicionário de Tags HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 20px;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dicionário de Tags HTML</h1>
+    <ul>
+        <li>
+            <h2>&lt;!DOCTYPE&gt;</h2>
+            <p>Define o tipo de documento e a versão do HTML que está sendo usada. Deve ser a primeira linha em um documento HTML.</p>
+            <code>&lt;!DOCTYPE html&gt;</code>
+        </li>
+        <li>
+            <h2>&lt;html&gt;</h2>
+            <p>Elemento raiz de um documento HTML. Envolve todo o conteúdo da página.</p>
+            <code>&lt;html&gt;&lt;/html&gt;</code>
+        </li>
+        <li>
+            <h2>&lt;head&gt;</h2>
+            <p>Contém metadados/informações sobre o documento. Inclui elementos como &lt;title&gt;, &lt;meta&gt;, &lt;link&gt;, &lt;style&gt;, etc.</p>
+            <code>&lt;head&gt;&lt;/head&gt;</code>
+        </li>
+        <li>
+            <h2>&lt;title&gt;</h2>
+            <p>Define o título do documento, que aparece na aba do navegador.</p>
+            <code>&lt;title&gt;Título da Página&lt;/title&gt;</code>
+        </li>
+        <li>
+            <h2>&lt;meta&gt;</h2>
+            <p>Define metadados sobre o documento HTML, como charset, autor, descrições, etc.</p>
+            <code>&lt;meta charset="UTF-8"&gt;</code>
+        </li>
+        <li>
+            <h2>&lt;body&gt;</h2>
+            <p>Contém todo o conteúdo visível da página, como textos, imagens, vídeos, etc.</p>
+            <code>&lt;body&gt;&lt;/body&gt;</code>
+        </li>
+        <li>
+            <h2>&lt;h1&gt; a &lt;h6&gt;</h2>
+            <p>Definem cabeçalhos/títulos, sendo &lt;h1&gt; o mais importante e &lt;h6&gt; o menos importante.</p>
+            <code>&lt;h1&gt;Cabeçalho 1&lt;/h1&gt;</code>
+        </li>
+        <li>
+            <h2>&lt;p&gt;</h2>
+            <p>Define um parágrafo.</p>
+            <code>&lt;p&gt;Este é um parágrafo.&lt;/p&gt;</code>
+        </li>
+        <li>
+            <h2>&lt;a&gt;</h2>
+            <p>Define um hiperlink para outra página ou recurso.</p>
+            <code>&lt;a href="https://example.com"&gt;Visite o Example&lt;/a&gt;</code>
+        </li>
+        <li>
+            <h2>&lt;img&gt;</h2>
+            <p>Incorpora uma imagem no documento.</p>
+            <code>&lt;img src="imagem.jpg" alt="Descrição da imagem"&gt;</code>
+        </li>
+        <li>
+            <h2>&lt;ul&gt;, &lt;ol&gt; e &lt;li&gt;</h2>
+            <p>Define listas não ordenadas (&lt;ul&gt;), listas ordenadas (&lt;ol&gt;) e itens de lista (&lt;li&gt;).</p>
+            <code>
+                &lt;ul&gt;<br>
+                &nbsp;&nbsp;&lt;li&gt;Item da lista&lt;/li&gt;<br>
+                &lt;/ul&gt;
+            </code>
+        </li>
+        <li>
+            <h2>&lt;div&gt;</h2>
+            <p>Define uma seção ou um contêiner genérico em um documento.</p>
+            <code>&lt;div&gt;Conteúdo&lt;/div&gt;</code>
+        </li>
+        <li>
+            <h2>&lt;span&gt;</h2>
+            <p>Define uma seção genérica em um documento, usada para estilização.</p>
+            <code>&lt;span&gt;Texto em linha&lt;/span&gt;</code>
+        </li>
+        <li>
+            <h2>&lt;form&gt;</h2>
+            <p>Define um formulário para entrada de dados do usuário.</p>
+            <code>&lt;form action="/submit" method="post"&gt;&lt;/form&gt;</code>
+        </li>
+        <li>
+            <h2>&lt;input&gt;</h2>
+            <p>Define um campo de entrada de dados em um formulário.</p>
+            <code>&lt;input type="text" name="nome"&gt;</code>
+        </li>
+        <li>
+            <h2>&lt;button&gt;</h2>
+            <p>Define um botão clicável.</p>
+            <code>&lt;button&gt;Clique aqui&lt;/button&gt;</code>
+        </li>
+        <li>
+            <h2>&lt;table&gt;, &lt;tr&gt;, &lt;th&gt; e &lt;td&gt;</h2>
+            <p>Define uma tabela (&lt;table&gt;), uma linha de tabela (&lt;tr&gt;), um cabeçalho de célula (&lt;th&gt;) e uma célula de tabela (&lt;td&gt;).</p>
+            <code>
+                &lt;table&gt;<br>
+                &nbsp;&nbsp;&lt;tr&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Cabeçalho&lt;/th&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Dado&lt;/td&gt;<br>
+                &nbsp;&nbsp;&lt;/tr&gt;<br>
+                &lt;/table&gt;
+            </code>
+        </li>
+        <li>
+            <h2>&lt;style&gt;</h2>
+            <p>Define estilos CSS internos.</p>
+            <code>
+                &lt;style&gt;<br>
+                &nbsp;&nbsp;body {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;background-color: #f0f0f0;<br>
+                &nbsp;&nbsp;}<br>
+                &lt;/style&gt;
+            </code>
+        </li>
+        <li>
+            <h2>&lt;link&gt;</h2>
+            <p>Define a ligação a um recurso externo, geralmente usado para vincular estilos CSS.</p>
+            <code>&lt;link rel="stylesheet" href="styles.css"&gt;</code>
+        </li>
+        <li>
+            <h2>&lt;script&gt;</h2>
+            <p>Define um script, geralmente usado para adicionar JavaScript.</p>
+            <code>&lt;script src="script.js"&gt;&lt;/script&gt;</code>
+        </li>
+    </ul>
+</body>
+</html>
